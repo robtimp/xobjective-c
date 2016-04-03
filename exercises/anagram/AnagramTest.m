@@ -1,11 +1,11 @@
 #import <XCTest/XCTest.h>
 #import "Anagram.h"
 
-@interface test_suite : XCTestCase
+@interface AnagramTest : XCTestCase
 
 @end
 
-@implementation test_suite
+@implementation AnagramTest
 
 - (void)testNoMatches {
   Anagram *anagram = [[Anagram alloc] initWithString:@"diaper"];
