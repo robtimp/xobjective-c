@@ -1,7 +1,7 @@
 @import Foundation;
 #import "Anagram.h"
 
-@interface Anagram ()
+@interface Anagram()
 
 @property (nonatomic,strong,readwrite) NSString *baseWord;
 
