@@ -49,10 +49,14 @@
 		1EFACABC1CCCAF3D006F2E69 /* WordCountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFACAA21CCCAF3D006F2E69 /* WordCountTest.m */; };
 		E907D0CA1D6B731600106C42 /* GigasecondExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E907D0C91D6B731600106C42 /* GigasecondExample.m */; };
 		E907D0CC1D6B734800106C42 /* GigasecondTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E907D0CB1D6B734800106C42 /* GigasecondTest.m */; };
+		E92FCC0D1D78F30D00061017 /* MeetupExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E92FCC0C1D78F30D00061017 /* MeetupExample.m */; };
+		E92FCC0F1D78F3B600061017 /* MeetupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E92FCC0E1D78F3B600061017 /* MeetupTest.m */; };
 		E94ACA131D41760300D56CC2 /* AllYourBaseExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E94ACA121D41760300D56CC2 /* AllYourBaseExample.m */; };
 		E94ACA151D41763800D56CC2 /* AllYourBaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E94ACA141D41763800D56CC2 /* AllYourBaseTest.m */; };
 		E951B6B71D4294E6009EB5B6 /* AllergiesExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E951B6B61D4294E6009EB5B6 /* AllergiesExample.m */; };
 		E951B6B91D429550009EB5B6 /* AllergiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E951B6B81D429550009EB5B6 /* AllergiesTest.m */; };
+		E99C95D51D831F15004AF3ED /* ScrabbleScoreExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E99C95D41D831F15004AF3ED /* ScrabbleScoreExample.m */; };
+		E99C95D71D831F38004AF3ED /* ScrabbleScoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E99C95D61D831F38004AF3ED /* ScrabbleScoreTest.m */; };
 		E99D1D811D5533BF0006A303 /* SumOfMultiplesExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E99D1D801D5533BF0006A303 /* SumOfMultiplesExample.m */; };
 		E99D1D831D5533D80006A303 /* SumOfMultiplesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E99D1D821D5533D80006A303 /* SumOfMultiplesTest.m */; };
 		E9FDCA191D5407D2004EE8DB /* RomanNumeralsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FDCA181D5407D2004EE8DB /* RomanNumeralsExample.m */; };
@@ -104,12 +108,18 @@
 		E907D0C81D6B731600106C42 /* GigasecondExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GigasecondExample.h; path = ../../exercises/gigasecond/GigasecondExample.h; sourceTree = "<group>"; };
 		E907D0C91D6B731600106C42 /* GigasecondExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GigasecondExample.m; path = ../../exercises/gigasecond/GigasecondExample.m; sourceTree = "<group>"; };
 		E907D0CB1D6B734800106C42 /* GigasecondTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GigasecondTest.m; path = ../../exercises/gigasecond/GigasecondTest.m; sourceTree = "<group>"; };
+		E92FCC0B1D78F30D00061017 /* MeetupExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeetupExample.h; path = ../../exercises/meetup/MeetupExample.h; sourceTree = "<group>"; };
+		E92FCC0C1D78F30D00061017 /* MeetupExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeetupExample.m; path = ../../exercises/meetup/MeetupExample.m; sourceTree = "<group>"; };
+		E92FCC0E1D78F3B600061017 /* MeetupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeetupTest.m; path = ../../exercises/meetup/MeetupTest.m; sourceTree = "<group>"; };
 		E94ACA111D4175C600D56CC2 /* AllYourBaseExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AllYourBaseExample.h; path = "../../exercises/all-your-base/AllYourBaseExample.h"; sourceTree = "<group>"; };
 		E94ACA121D41760300D56CC2 /* AllYourBaseExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllYourBaseExample.m; path = "../../exercises/all-your-base/AllYourBaseExample.m"; sourceTree = "<group>"; };
 		E94ACA141D41763800D56CC2 /* AllYourBaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllYourBaseTest.m; path = "../../exercises/all-your-base/AllYourBaseTest.m"; sourceTree = "<group>"; };
 		E951B6B51D4294E6009EB5B6 /* AllergiesExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllergiesExample.h; path = ../../exercises/allergies/AllergiesExample.h; sourceTree = "<group>"; };
 		E951B6B61D4294E6009EB5B6 /* AllergiesExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllergiesExample.m; path = ../../exercises/allergies/AllergiesExample.m; sourceTree = "<group>"; };
 		E951B6B81D429550009EB5B6 /* AllergiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllergiesTest.m; path = ../../exercises/allergies/AllergiesTest.m; sourceTree = "<group>"; };
+		E99C95D31D831F15004AF3ED /* ScrabbleScoreExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrabbleScoreExample.h; path = "../../exercises/scrabble-score/ScrabbleScoreExample.h"; sourceTree = "<group>"; };
+		E99C95D41D831F15004AF3ED /* ScrabbleScoreExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrabbleScoreExample.m; path = "../../exercises/scrabble-score/ScrabbleScoreExample.m"; sourceTree = "<group>"; };
+		E99C95D61D831F38004AF3ED /* ScrabbleScoreTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrabbleScoreTest.m; path = "../../exercises/scrabble-score/ScrabbleScoreTest.m"; sourceTree = "<group>"; };
 		E99D1D7F1D5533BF0006A303 /* SumOfMultiplesExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SumOfMultiplesExample.h; path = "../../exercises/sum-of-multiples/SumOfMultiplesExample.h"; sourceTree = "<group>"; };
 		E99D1D801D5533BF0006A303 /* SumOfMultiplesExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SumOfMultiplesExample.m; path = "../../exercises/sum-of-multiples/SumOfMultiplesExample.m"; sourceTree = "<group>"; };
 		E99D1D821D5533D80006A303 /* SumOfMultiplesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SumOfMultiplesTest.m; path = "../../exercises/sum-of-multiples/SumOfMultiplesTest.m"; sourceTree = "<group>"; };
@@ -142,11 +152,13 @@
 				E9E8B6EF1D519E040012F12C /* Hamming */,
 				E9E8B6F01D519E0B0012F12C /* HelloWorld */,
 				E9E8B6F11D519E120012F12C /* Leap */,
+				E92FCC0A1D78F2AA00061017 /* Meetup */,
 				E9E8B6F21D519E180012F12C /* NucleotideCount */,
 				E9E8B6F31D519E200012F12C /* PerfectNumbers */,
 				E9E8B6F41D519E270012F12C /* PhoneNumber */,
 				E9E8B6F51D519E2E0012F12C /* RobotName */,
 				E9FDCA161D540793004EE8DB /* RomanNumerals */,
+				E99C95D21D831EE0004AF3ED /* ScrabbleScore */,
 				E9E8B6F61D519E340012F12C /* SpaceAge */,
 				E99D1D7B1D5532C50006A303 /* SumOfMultiples */,
 				E9E8B6F71D519E3A0012F12C /* WordCount */,
@@ -181,6 +193,26 @@
 			name = Gigasecond;
 			sourceTree = "<group>";
 		};
+		E92FCC0A1D78F2AA00061017 /* Meetup */ = {
+			isa = PBXGroup;
+			children = (
+				E92FCC0B1D78F30D00061017 /* MeetupExample.h */,
+				E92FCC0C1D78F30D00061017 /* MeetupExample.m */,
+				E92FCC0E1D78F3B600061017 /* MeetupTest.m */,
+			);
+			name = Meetup;
+			sourceTree = "<group>";
+		};
+        E99C95D21D831EE0004AF3ED /* ScrabbleScore */ = {
+            isa = PBXGroup;
+            children = (
+                E99C95D31D831F15004AF3ED /* ScrabbleScoreExample.h */,
+                E99C95D41D831F15004AF3ED /* ScrabbleScoreExample.m */,
+                E99C95D61D831F38004AF3ED /* ScrabbleScoreTest.m */,
+            );
+            name = ScrabbleScore;
+            sourceTree = "<group>";
+        };
 		E99D1D7B1D5532C50006A303 /* SumOfMultiples */ = {
 			isa = PBXGroup;
 			children = (
@@ -428,7 +460,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -f ~/.bash_profile ]; then\nsource ~/.bash_profile\nfi\n\nhash oclint &> /dev/null\nif [ $? -eq 1 ]; then\necho >&2 \"oclint not found, analyzing stopped\"\nexit 1\nfi\n\nif [ ! -f \"${TARGET_TEMP_DIR}\"/xcodebuild.log ]; then\necho \"[*] xcodebuild.log not found, possibly clean was performed\"\necho \"[*] starting xcodebuild to rebuild the project..\"\n\ncd \"${SRCROOT}\"\n\nxcodebuild clean -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}\".xcodeproj\n\n#build xcodebuild.log\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}\".xcodeproj | tee \"${TARGET_TEMP_DIR}\"/xcodebuild.log\nfi\n\ncd \"${TARGET_TEMP_DIR}\"\n\necho \"[*] transforming xcodebuild.log into compile_commands.json...\"\n#transform it into compile_commands.json\noclint-xcodebuild\n\necho \"[*] starting analyzing\"\noclint-json-compilation-database -- \\\n    -p \"${TARGET_TEMP_DIR}\" \\\n    | sed -E 's/(.*\\.(c|m{1,2}):[0-9]*:[0-9]*:)/\\1 warning:/'";
+			shellScript = "if [ -f ~/.bash_profile ]; then\nsource ~/.bash_profile\nfi\n\nhash oclint &> /dev/null\nif [ $? -eq 1 ]; then\necho >&2 \"oclint not found, analyzing stopped\"\nexit 1\nfi\n\nif [ ! -f \"${TARGET_TEMP_DIR}\"/xcodebuild.log ]; then\necho \"[*] xcodebuild.log not found, possibly clean was performed\"\necho \"[*] starting xcodebuild to rebuild the project..\"\n\ncd \"${SRCROOT}\"\n\nxcodebuild clean -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}\".xcodeproj\n\n#build xcodebuild.log\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}\".xcodeproj | tee \"${TARGET_TEMP_DIR}\"/xcodebuild.log\nfi\n\ncd \"${TARGET_TEMP_DIR}\"\n\necho \"[*] transforming xcodebuild.log into compile_commands.json...\"\n#transform it into compile_commands.json\noclint-xcodebuild\n\necho \"[*] starting analyzing\"\noclint-json-compilation-database -- \\\n   -rc LONG_LINE=200 -disable-rule UselessParentheses -disable-rule ConstantConditionalOperator -disable-rule DoubleNegative -disable-rule MultipleUnaryOperator -p \"${TARGET_TEMP_DIR}\" \\\n    | sed -E 's/(.*\\.(c|m{1,2}):[0-9]*:[0-9]*:)/\\1 warning:/'";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -439,6 +471,7 @@
 			files = (
 				1EFACAA71CCCAF3D006F2E69 /* EtlExample.m in Sources */,
 				1EFACAA31CCCAF3D006F2E69 /* AnagramExample.m in Sources */,
+				E99C95D71D831F38004AF3ED /* ScrabbleScoreTest.m in Sources */,
 				E94ACA131D41760300D56CC2 /* AllYourBaseExample.m in Sources */,
 				E94ACA151D41763800D56CC2 /* AllYourBaseTest.m in Sources */,
 				1EFACAA41CCCAF3D006F2E69 /* AnagramTest.m in Sources */,
@@ -447,7 +480,9 @@
 				1EFACAB51CCCAF3D006F2E69 /* PhoneNumberExample.m in Sources */,
 				E951B6B91D429550009EB5B6 /* AllergiesTest.m in Sources */,
 				E907D0CA1D6B731600106C42 /* GigasecondExample.m in Sources */,
+				E99C95D51D831F15004AF3ED /* ScrabbleScoreExample.m in Sources */,
 				E99D1D811D5533BF0006A303 /* SumOfMultiplesExample.m in Sources */,
+				E92FCC0F1D78F3B600061017 /* MeetupTest.m in Sources */,
 				1EFACAB41CCCAF3D006F2E69 /* PerfectNumbersTest.m in Sources */,
 				E9FDCA191D5407D2004EE8DB /* RomanNumeralsExample.m in Sources */,
 				1EFACAAE1CCCAF3D006F2E69 /* HelloWorldTest.m in Sources */,
@@ -464,6 +499,7 @@
 				1EFACABB1CCCAF3D006F2E69 /* WordCountExample.m in Sources */,
 				1EFACAB01CCCAF3D006F2E69 /* LeapTest.m in Sources */,
 				1EFACAAB1CCCAF3D006F2E69 /* HammingExample.m in Sources */,
+				E92FCC0D1D78F30D00061017 /* MeetupExample.m in Sources */,
 				1EFACAAD1CCCAF3D006F2E69 /* HelloWorldExample.m in Sources */,
 				1EFACAB31CCCAF3D006F2E69 /* PerfectNumbersExample.m in Sources */,
 				1EFACAB61CCCAF3D006F2E69 /* PhoneNumberTest.m in Sources */,
