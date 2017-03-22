@@ -91,6 +91,8 @@
 		E9C1C02B1D9DB1830015E86E /* AcronymTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C1C02A1D9DB1830015E86E /* AcronymTest.m */; };
 		E9C1C02F1D9EC1130015E86E /* RunLengthEncodingExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C1C02E1D9EC1130015E86E /* RunLengthEncodingExample.m */; };
 		E9C1C0311D9EC1270015E86E /* RunLengthEncodingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C1C0301D9EC1270015E86E /* RunLengthEncodingTest.m */; };
+		E9D9D7E31E831A19003241CD /* CryptoSquareExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9D7E21E831A19003241CD /* CryptoSquareExample.m */; };
+		E9D9D7E51E831A36003241CD /* CryptoSquareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9D7E41E831A36003241CD /* CryptoSquareTest.m */; };
 		E9F390071DFCA337005C5F46 /* IsogramExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F390061DFCA337005C5F46 /* IsogramExample.m */; };
 		E9F390091DFCA350005C5F46 /* IsogramTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F390081DFCA350005C5F46 /* IsogramTest.m */; };
 		E9FDCA191D5407D2004EE8DB /* RomanNumeralsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FDCA181D5407D2004EE8DB /* RomanNumeralsExample.m */; };
@@ -205,6 +207,9 @@
 		E9C1C02D1D9EC1130015E86E /* RunLengthEncodingExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunLengthEncodingExample.h; path = "../../exercises/run-length-encoding/RunLengthEncodingExample.h"; sourceTree = "<group>"; };
 		E9C1C02E1D9EC1130015E86E /* RunLengthEncodingExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunLengthEncodingExample.m; path = "../../exercises/run-length-encoding/RunLengthEncodingExample.m"; sourceTree = "<group>"; };
 		E9C1C0301D9EC1270015E86E /* RunLengthEncodingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunLengthEncodingTest.m; path = "../../exercises/run-length-encoding/RunLengthEncodingTest.m"; sourceTree = "<group>"; };
+		E9D9D7E11E831A19003241CD /* CryptoSquareExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CryptoSquareExample.h; path = "../../exercises/crypto-square/CryptoSquareExample.h"; sourceTree = "<group>"; };
+		E9D9D7E21E831A19003241CD /* CryptoSquareExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CryptoSquareExample.m; path = "../../exercises/crypto-square/CryptoSquareExample.m"; sourceTree = "<group>"; };
+		E9D9D7E41E831A36003241CD /* CryptoSquareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CryptoSquareTest.m; path = "../../exercises/crypto-square/CryptoSquareTest.m"; sourceTree = "<group>"; };
 		E9F390051DFCA337005C5F46 /* IsogramExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IsogramExample.h; path = ../../exercises/isogram/IsogramExample.h; sourceTree = "<group>"; };
 		E9F390061DFCA337005C5F46 /* IsogramExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IsogramExample.m; path = ../../exercises/isogram/IsogramExample.m; sourceTree = "<group>"; };
 		E9F390081DFCA350005C5F46 /* IsogramTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IsogramTest.m; path = ../../exercises/isogram/IsogramTest.m; sourceTree = "<group>"; };
@@ -237,6 +242,7 @@
 				E9E8B6EC1D519DEF0012F12C /* Bob */,
 				A09A906D1E28C1380087CCB7 /* BracketPush */,
 				E9381D4F1D8F2DA4003F22A1 /* Clock */,
+				E9D9D7E01E8319EE003241CD /* CryptoSquare */,
 				E9381D431D8EDFB8003F22A1 /* DifferenceOfSquares */,
 				E9E8B6ED1D519DF50012F12C /* Etl */,
 				A09A4C001E3875C200FEFB7A /* FlattenArray */,
@@ -483,6 +489,16 @@
 				E9C1C0301D9EC1270015E86E /* RunLengthEncodingTest.m */,
 			);
 			name = RunLengthEncoding;
+			sourceTree = "<group>";
+		};
+		E9D9D7E01E8319EE003241CD /* CryptoSquare */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9D7E11E831A19003241CD /* CryptoSquareExample.h */,
+				E9D9D7E21E831A19003241CD /* CryptoSquareExample.m */,
+				E9D9D7E41E831A36003241CD /* CryptoSquareTest.m */,
+			);
+			name = CryptoSquare;
 			sourceTree = "<group>";
 		};
 		E9E8B6E91D519DDB0012F12C /* Allergies */ = {
@@ -770,6 +786,7 @@
 				A09A4C031E38761A00FEFB7A /* FlattenArrayExample.m in Sources */,
 				A0BBFCC31E37728100230071 /* SublistTest.m in Sources */,
 				E9C1C02F1D9EC1130015E86E /* RunLengthEncodingExample.m in Sources */,
+				E9D9D7E31E831A19003241CD /* CryptoSquareExample.m in Sources */,
 				E92FCC0F1D78F3B600061017 /* MeetupTest.m in Sources */,
 				E9381D4E1D8F2982003F22A1 /* RaindropsTest.m in Sources */,
 				E9381D541D8F2DE1003F22A1 /* ClockTest.m in Sources */,
@@ -807,6 +824,7 @@
 				E9386EEE1E0B692D0009A414 /* AtbashCipherExample.m in Sources */,
 				1EFACAA61CCCAF3D006F2E69 /* BobTest.m in Sources */,
 				E9B345FA1DB93839006EFBE2 /* PangramTest.m in Sources */,
+				E9D9D7E51E831A36003241CD /* CryptoSquareTest.m in Sources */,
 				E9A7B2F91DA5AC55009056B6 /* LargestSeriesProductTest.m in Sources */,
 				1EFACAAF1CCCAF3D006F2E69 /* LeapExample.m in Sources */,
 				E9386EF01E0B694D0009A414 /* AtbashCipherTest.m in Sources */,
